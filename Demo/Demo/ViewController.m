@@ -24,7 +24,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     __weak typeof(self) welf = self;
-    WJCMenuView *menu = [WJCMenuView tableViewWithFrame:self.menu.frame = CGRectMake(0, 40, self.view.frame.size.width, 500) oneTitleSize:CGSizeMake(100, 30) titles:@[@"A", @"BB", @"CCC", @"DDDD", @"5", @"6", @"7", @"8", @"9", @"10", ] showBottomLine:YES titleButtonConfigureHandler:^(UIButton *titleButton, NSUInteger index) {
+    WJCMenuView *menu = [WJCMenuView tableViewWithFrame:self.menu.frame = CGRectMake(0, 40, self.view.frame.size.width, 500) oneTitleSize:CGSizeMake(100, 30) titles:@[@"A", @"BBBB", @"3", @"4", @"5", ] showBottomLine:YES titleButtonConfigureHandler:^(UIButton *titleButton, NSUInteger index) {
         titleButton.backgroundColor = kRandomColor;
         [titleButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     } tableViewConfigureHandler:^(UITableView *tableView, NSUInteger index) {
