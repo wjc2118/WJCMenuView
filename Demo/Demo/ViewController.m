@@ -58,8 +58,8 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
-        cell.textLabel.text = [NSString stringWithFormat:@"%zd",index];
     }
+    cell.textLabel.text = [NSString stringWithFormat:@"%zd", index + 1];
     return cell;
 }
 
