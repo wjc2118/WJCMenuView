@@ -12,9 +12,9 @@
 		F112FC371D7B173D00DE18F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F112FC361D7B173D00DE18F5 /* ViewController.m */; };
 		F112FC3C1D7B173D00DE18F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F112FC3B1D7B173D00DE18F5 /* Assets.xcassets */; };
 		F112FC3F1D7B173D00DE18F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F112FC3D1D7B173D00DE18F5 /* LaunchScreen.storyboard */; };
-		F112FC4D1D7B17D200DE18F5 /* WJCContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F112FC481D7B17D200DE18F5 /* WJCContentScrollView.m */; };
-		F112FC4E1D7B17D200DE18F5 /* WJCMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F112FC4A1D7B17D200DE18F5 /* WJCMenuView.m */; };
-		F112FC4F1D7B17D200DE18F5 /* WJCTitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F112FC4C1D7B17D200DE18F5 /* WJCTitleScrollView.m */; };
+		F15B8ABD1DB64400002177FE /* WJCContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F15B8AB81DB64400002177FE /* WJCContentScrollView.m */; };
+		F15B8ABE1DB64400002177FE /* WJCTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = F15B8ABA1DB64400002177FE /* WJCTagView.m */; };
+		F15B8ABF1DB64400002177FE /* WJCTitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F15B8ABC1DB64400002177FE /* WJCTitleScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +27,12 @@
 		F112FC3B1D7B173D00DE18F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F112FC3E1D7B173D00DE18F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F112FC401D7B173D00DE18F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F112FC471D7B17D200DE18F5 /* WJCContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCContentScrollView.h; sourceTree = "<group>"; };
-		F112FC481D7B17D200DE18F5 /* WJCContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCContentScrollView.m; sourceTree = "<group>"; };
-		F112FC491D7B17D200DE18F5 /* WJCMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCMenuView.h; sourceTree = "<group>"; };
-		F112FC4A1D7B17D200DE18F5 /* WJCMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCMenuView.m; sourceTree = "<group>"; };
-		F112FC4B1D7B17D200DE18F5 /* WJCTitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCTitleScrollView.h; sourceTree = "<group>"; };
-		F112FC4C1D7B17D200DE18F5 /* WJCTitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCTitleScrollView.m; sourceTree = "<group>"; };
+		F15B8AB71DB64400002177FE /* WJCContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCContentScrollView.h; sourceTree = "<group>"; };
+		F15B8AB81DB64400002177FE /* WJCContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCContentScrollView.m; sourceTree = "<group>"; };
+		F15B8AB91DB64400002177FE /* WJCTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCTagView.h; sourceTree = "<group>"; };
+		F15B8ABA1DB64400002177FE /* WJCTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCTagView.m; sourceTree = "<group>"; };
+		F15B8ABB1DB64400002177FE /* WJCTitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCTitleScrollView.h; sourceTree = "<group>"; };
+		F15B8ABC1DB64400002177FE /* WJCTitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCTitleScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 				F112FC331D7B173D00DE18F5 /* AppDelegate.m */,
 				F112FC351D7B173D00DE18F5 /* ViewController.h */,
 				F112FC361D7B173D00DE18F5 /* ViewController.m */,
-				F112FC461D7B17D200DE18F5 /* WJCMenuView */,
+				F15B8AB61DB64400002177FE /* WJCTagView */,
 				F112FC3B1D7B173D00DE18F5 /* Assets.xcassets */,
 				F112FC3D1D7B173D00DE18F5 /* LaunchScreen.storyboard */,
 				F112FC401D7B173D00DE18F5 /* Info.plist */,
@@ -86,17 +86,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F112FC461D7B17D200DE18F5 /* WJCMenuView */ = {
+		F15B8AB61DB64400002177FE /* WJCTagView */ = {
 			isa = PBXGroup;
 			children = (
-				F112FC471D7B17D200DE18F5 /* WJCContentScrollView.h */,
-				F112FC481D7B17D200DE18F5 /* WJCContentScrollView.m */,
-				F112FC491D7B17D200DE18F5 /* WJCMenuView.h */,
-				F112FC4A1D7B17D200DE18F5 /* WJCMenuView.m */,
-				F112FC4B1D7B17D200DE18F5 /* WJCTitleScrollView.h */,
-				F112FC4C1D7B17D200DE18F5 /* WJCTitleScrollView.m */,
+				F15B8AB71DB64400002177FE /* WJCContentScrollView.h */,
+				F15B8AB81DB64400002177FE /* WJCContentScrollView.m */,
+				F15B8AB91DB64400002177FE /* WJCTagView.h */,
+				F15B8ABA1DB64400002177FE /* WJCTagView.m */,
+				F15B8ABB1DB64400002177FE /* WJCTitleScrollView.h */,
+				F15B8ABC1DB64400002177FE /* WJCTitleScrollView.m */,
 			);
-			path = WJCMenuView;
+			path = WJCTagView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +125,7 @@
 		F112FC241D7B173D00DE18F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = wjc2118;
 				TargetAttributes = {
 					F112FC2B1D7B173D00DE18F5 = {
@@ -169,10 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F112FC371D7B173D00DE18F5 /* ViewController.m in Sources */,
-				F112FC4E1D7B17D200DE18F5 /* WJCMenuView.m in Sources */,
+				F15B8ABE1DB64400002177FE /* WJCTagView.m in Sources */,
 				F112FC341D7B173D00DE18F5 /* AppDelegate.m in Sources */,
-				F112FC4F1D7B17D200DE18F5 /* WJCTitleScrollView.m in Sources */,
-				F112FC4D1D7B17D200DE18F5 /* WJCContentScrollView.m in Sources */,
+				F15B8ABF1DB64400002177FE /* WJCTitleScrollView.m in Sources */,
+				F15B8ABD1DB64400002177FE /* WJCContentScrollView.m in Sources */,
 				F112FC311D7B173D00DE18F5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,8 +205,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -250,8 +252,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -318,6 +322,7 @@
 				F112FC451D7B173D00DE18F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

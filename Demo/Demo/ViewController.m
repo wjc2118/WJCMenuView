@@ -7,14 +7,13 @@
 //
 
 #import "ViewController.h"
-#import "WJCMenuView.h"
-
+#import "WJCTagView.h"
 #define kColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 
 #define kRandomColor kColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate, UICollectionViewDataSource>
-@property (nonatomic, weak) WJCMenuView *menu;
+@property (nonatomic, weak) WJCTagView *menu;
 @end
 
 @implementation ViewController
@@ -24,7 +23,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     __weak typeof(self) welf = self;
-    WJCMenuView *menu = [WJCMenuView tableViewWithFrame:self.menu.frame = CGRectMake(0, 40, self.view.frame.size.width, 500) oneTitleSize:CGSizeMake(100, 30) titles:@[@"A", @"BBBB", @"3", @"4", @"5", ] showBottomLine:YES titleButtonConfigureHandler:^(UIButton *titleButton, NSUInteger index) {
+    WJCTagView *menu = [WJCTagView tableViewWithFrame:self.menu.frame = CGRectMake(0, 40, self.view.frame.size.width, 500) oneTitleSize:CGSizeMake(100, 30) titles:@[@"A", @"BBBB", @"3", @"4", @"5", ] showBottomLine:YES titleButtonConfigureHandler:^(UIButton *titleButton, NSUInteger index) {
         titleButton.backgroundColor = kRandomColor;
         [titleButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     } tableViewConfigureHandler:^(UITableView *tableView, NSUInteger index) {

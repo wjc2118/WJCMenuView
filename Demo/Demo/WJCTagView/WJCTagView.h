@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WJCMenuView : UIView
+@interface WJCTagView : UIView
 
 + (instancetype)tableViewWithFrame:(CGRect)frame oneTitleSize:(CGSize)size titles:(NSArray *)titles showBottomLine:(BOOL)show titleButtonConfigureHandler:(void(^)(UIButton *titleButton, NSUInteger index))titleButtonConfigureBlock tableViewConfigureHandler:(void(^)(UITableView *tableView, NSUInteger index))tableViewConfigureBlock;
 

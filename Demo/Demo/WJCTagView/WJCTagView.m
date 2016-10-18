@@ -6,13 +6,13 @@
 //  Copyright © 2016年 Mac-os. All rights reserved.
 //
 
-#import "WJCMenuView.h"
+#import "WJCTagView.h"
 #import "WJCTitleScrollView.h"
 #import "WJCContentScrollView.h"
 
 static const CGFloat Bottom_Line_Height = 2;
 
-@interface WJCMenuView () <UIScrollViewDelegate>
+@interface WJCTagView () <UIScrollViewDelegate>
 @property (nonatomic, weak) WJCTitleScrollView *titleScrollView;
 @property (nonatomic, weak) WJCContentScrollView *contentScrollView;
 @property (nonatomic, weak) UIButton *selectedBtn;
@@ -41,7 +41,7 @@ static const CGFloat Bottom_Line_Height = 2;
 
 @end
 
-@implementation WJCMenuView {
+@implementation WJCTagView {
     CGSize _titleSize;
     NSInteger _contentCount;
     
